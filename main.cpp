@@ -31,11 +31,9 @@ int main() {
     
     int n = 12345678;
     int nsum = 0;
-    int digit;
     for (int i = 1; i < 9; i++) {
-        digit = n % int(pow(10, i)) / int(pow(10, i - 1));
-        if (digit % 2 == 0) nsum += digit;
+        nsum += n % int(pow(10, i)) / int(pow(10, i - 1));
     }
-    std::cout << "Сумма четных чисел: " << nsum << std::endl;
+    std::cout << "Сумма чисел: " << nsum << std::endl;
     return 0;
 }
