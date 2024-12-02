@@ -3,9 +3,6 @@
 
 
 int main() {
-    /*1. Дана последовательность вещественных чисел {Aj}. 
-    Найти сумму чисел, лежащих на отрезке [-7,19], 
-    наибольшее из таких чисел и номер этого числа в последовательности.*/
     std::cout << "1." << std::endl;
      
     const int NMAX = 10000;
@@ -22,11 +19,11 @@ int main() {
         }
     }
     
-    std::cout << "Сумма: " << sum << std::endl;
-    std::cout << "Наибольшее: " << max << std::endl;
-    std::cout << "Его номер: " << num << std::endl;
+    std::cout << "Sum: " << sum << std::endl;
+    std::cout << "Max: " << max << std::endl;
+    std::cout << "Number: " << num << std::endl;
     
-    /*2. Дано натуральное число N (N<10^9). Найти сумму цифр числа N.*/
+    // 2.
     std::cout << "2." << std::endl;
     
     int n = 12345678;
